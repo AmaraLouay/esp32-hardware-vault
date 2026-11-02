@@ -1,0 +1,16 @@
+# PlatformIO / ESP-IDF build output
+.pio/
+build/
+sdkconfig
+sdkconfig.*
+!sdkconfig.defaults
+.vscode/
+
+# NEVER commit the eFuse secret or any key material
+*.bin
+*.key
+*.pem
+
+# Decrypted outputs from the demo
+recovered*
+__pycache__/
